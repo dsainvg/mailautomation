@@ -3,9 +3,10 @@ from mail import send_gmail_message
 from mail_bulk import send_gmail_bulk_message
 
 st.set_page_config(
-    page_title="WhatsApp Message Sender",
-    page_icon="📱",
-    layout="centered"
+    page_title="Gmail Message Sender",
+    page_icon="�",
+    layout="wide",
+    initial_sidebar_state="collapsed"
 )
 
 st.sidebar.title("Select your application")

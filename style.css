@@ -1,0 +1,191 @@
+/* Dark Theme for Gmail Bulk Message Sender */
+
+/* General styles */
+body {
+    color: #fff !important;
+    background-color: #0e1117 !important;
+}
+
+.main .block-container {
+    background-color: #0e1117 !important;
+    padding-top: 2rem;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+    color: #00aaff !important;
+    font-weight: 600;
+}
+
+h1 {
+    border-bottom: 2px solid #00aaff;
+    padding-bottom: 0.5rem;
+}
+
+/* Text and paragraphs */
+p, div, span, li {
+    color: #ffffff !important;
+}
+
+/* Input fields */
+.stTextInput input, .stTextArea textarea {
+    color: #fff !important;
+    background-color: #262730 !important;
+    border: 1px solid #404040 !important;
+    border-radius: 5px;
+}
+
+.stTextInput input:focus, .stTextArea textarea:focus {
+    border-color: #00aaff !important;
+    box-shadow: 0 0 5px rgba(0, 170, 255, 0.3) !important;
+}
+
+/* Select boxes */
+.stSelectbox > div > div {
+    background-color: #262730 !important;
+    color: #fff !important;
+}
+
+/* File uploader */
+.stFileUploader label, .stFileUploader div {
+    color: #fff !important;
+}
+
+.stFileUploader button {
+    background-color: #262730 !important;
+    color: #fff !important;
+    border: 1px solid #404040 !important;
+}
+
+/* Buttons */
+.stButton button {
+    background-color: #00aaff !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 8px !important;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.stButton button:hover {
+    background-color: #0088cc !important;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 170, 255, 0.3) !important;
+}
+
+/* Primary button special styling */
+.stButton button[kind="primary"] {
+    background: linear-gradient(45deg, #00aaff, #0088cc) !important;
+    font-size: 1.1rem !important;
+    padding: 0.6rem 1.2rem !important;
+}
+
+/* Expander */
+.streamlit-expanderHeader {
+    background-color: #1e2329 !important;
+    color: #00aaff !important;
+    border: 1px solid #404040 !important;
+}
+
+.streamlit-expanderContent {
+    background-color: #1a1d23 !important;
+    border: 1px solid #404040 !important;
+    color: #fff !important;
+}
+
+/* Info, Success, Warning, Error boxes */
+.stInfo, .stSuccess, .stWarning, .stError {
+    border-radius: 8px !important;
+    border-left: 4px solid !important;
+}
+
+.stInfo {
+    background-color: rgba(0, 170, 255, 0.1) !important;
+    border-left-color: #00aaff !important;
+    color: #ffffff !important;
+}
+
+.stSuccess {
+    background-color: rgba(0, 255, 136, 0.1) !important;
+    border-left-color: #00ff88 !important;
+    color: #ffffff !important;
+}
+
+.stWarning {
+    background-color: rgba(255, 196, 0, 0.1) !important;
+    border-left-color: #ffc400 !important;
+    color: #ffffff !important;
+}
+
+.stError {
+    background-color: rgba(255, 75, 75, 0.1) !important;
+    border-left-color: #ff4b4b !important;
+    color: #ffffff !important;
+}
+
+/* Dataframe */
+.dataframe {
+    background-color: #1e2329 !important;
+    color: #fff !important;
+    border: 1px solid #404040 !important;
+}
+
+/* Progress bar */
+.stProgress .st-bo {
+    background-color: #262730 !important;
+}
+
+.stProgress .st-bp {
+    background-color: #00aaff !important;
+}
+
+/* Columns and containers */
+.element-container {
+    background-color: transparent !important;
+}
+
+/* Custom container styling */
+div[data-testid="stContainer"] {
+    background-color: #1a1d23 !important;
+    border-radius: 10px;
+    padding: 1rem;
+    border: 1px solid #404040;
+}
+
+/* Sidebar (if any) */
+.css-1d391kg {
+    background-color: #1a1d23 !important;
+}
+
+/* Remove default margins */
+.css-1y4p8pa {
+    padding-top: 1rem !important;
+}
+
+/* Custom animations */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.element-container {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1a1d23;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #404040;
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #606060;
+}
